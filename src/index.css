@@ -29,7 +29,7 @@ button{
 .add-button:hover{
   background-color: hsl(125, 47%, 54%);
 }
-.delate-button{
+.delete-button{
   background-color: hsl(10, 90%, 50%);
 }
 .delete-button:hover{
@@ -65,8 +65,17 @@ li{
 .text{
   flex: 1;
 }
-.delate-button, .move-button{
+.delete-button, .move-button{
   padding: 8px 12px;
   font-size: 1.4rem;
   margin-left: 10px;
+}
+/* Styl dla zaznaczonego zadania */
+li.selected {
+  background-color: hsl(207, 47%, 74%);
+  border-color: hsl(207, 47%, 74%);
+}
+.important {
+  font-weight: bold;
+  color: gold;
 }
